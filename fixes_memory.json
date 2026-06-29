@@ -1,0 +1,10 @@
+{
+    "unsupported operand type(s) for +: 'str' and 'int'": {
+        "fix": "def divide(a, b):\n    return a / b\n\nname = \"Pavan\"\nage = 20\nprint(name + str(age))\n\nnumbers = [1, 2, 3]\ntry:\n    print(numbers[10])\nexcept IndexError:\n    print(\"Index out of range\")",
+        "timestamp": "2026-06-29T13:31:12.520068"
+    },
+    "list index out of range": {
+        "fix": "def divide(a, b):\n    return a / b\n\nname = \"Pavan\"\nage = 20\nprint(name + str(age))\n\nnumbers = [1, 2, 3]\ntry:\n    print(numbers[2])\nexcept IndexError:\n    print(\"Index is out of range\")",
+        "timestamp": "2026-06-29T13:31:36.190441"
+    }
+}

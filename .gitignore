@@ -1,0 +1,4 @@
+fixes_memory.json 
+__pycache__/ 
+*.pyc 
+fixes_memory.json  echo __pycache__/  echo *.pyc  echo .env 
